@@ -1,0 +1,112 @@
+.news-grid {
+  display: block;
+  padding: 1rem;
+}
+
+.news-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0px;
+  background: #232320;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+}
+
+.news-image {
+  width: 20%;
+  position: relative;
+  padding-top: 100px;
+}
+
+.news-image img {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.news-content {
+  width: 74%;
+  padding: 1rem;
+}
+
+.news-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.news-date {
+  background: #444;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.news-category {
+  background: #b8b515;
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.news-title {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.news-title a {
+  text-decoration: none;
+}
+
+.news-title a:hover {
+  color: #f1ed25;
+}
+
+.news-preview {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+/* 糞フォンの方向け */
+@media screen and (max-width: 768px) {
+  .news-card {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .news-image {
+    width: 100%;
+    padding-top: 60%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .news-image img {
+    left: 0;
+  }
+  
+  .news-content {
+    width: 100%;
+    padding: 0.75rem;
+  }
+}
+
+/* 死ねー */
+@media screen and (max-width: 480px) {
+  .news-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+}

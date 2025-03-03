@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+                      "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/favicon.ico" id="favicon">
+  <title>テクニカル諏訪子: {{ $pagetit }}</title>
+  <link rel="stylesheet" type="text/css" href="/static/style.css" />
+@if (isset($custCss) && !empty($custCss) && !is_bool($custCss))
+  @foreach ($custCss as $css)
+  {! echo $css; !}
+  @endforeach
+@endif
+@if (isset($meta))
+  <meta name="author" content="{{ $meta->author }}" />
+  <?php if (isset($meta->thumbnail)): ?>
+  <meta name="thumbnail" content="/static/{{ $meta->thumbnail }}" />
+  <?php endif; ?>
+@endif
+  <meta name="description" content="{{ $description }}" />
+
+  <meta property="og:title" content="テクニカル諏訪子: {{ $pagetit }}" />
+  <meta property="og:description" content="{{ $description }}" />
+  <meta property="og:type" content="{{ isset($meta) && isset($meta->thumbnail) ? 'article' : 'website' }}" />
+  <meta property="og:url" content="{{ isset($_SERVER['REQUEST_URI']) ? 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] : 'https://' . $_SERVER['HTTP_HOST'] }}" />
+  @if (isset($meta) && isset($meta->thumbnail))
+  <meta property="og:image" content="https://{{ $_SERVER['HTTP_HOST'] }}/static/article/{{ $meta->thumbnail }}" />
+  @endif
+  
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:card" content="@techsuwako" />
+  <meta name="twitter:title" content="テクニカル諏訪子: {{ $pagetit }}" />
+  <meta name="twitter:url" content="{{ isset($_SERVER['REQUEST_URI']) ? 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] : 'https://' . $_SERVER['HTTP_HOST'] }}" />
+  <meta name="twitter:description" content="{{ $description }}" />
+  @if (isset($meta) && isset($meta->thumbnail))
+  <meta name="twitter:image:src" content="https://{{ $_SERVER['HTTP_HOST'] }}/static/article/{{ $meta->thumbnail }}" />
+  @endif
+  <link rel="alternate" type="application/atom+xml" title="テクニカル諏訪子 feed" href="/blog.atom" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        テクニカル諏訪子
+      </div>
+      <nav>
+@foreach ($menu as $m)
+  @if ($m['show'])
+        <a class="{{ $m['class'] }}{{ $curPage == $m['page'] ? ' active' : '' }}" href="{{ $m['href'] }}">{{ $m['text'] }}</a>
+  @endif
+@endforeach
+      </nav>
+    </header>
+    <main>
