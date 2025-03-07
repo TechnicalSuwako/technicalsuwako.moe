@@ -22,7 +22,7 @@ class Route {
    * @param string $path URLパス
    * @param string|callable $class ハンドラクラスとメソッド、またはコールバック
    * @param array $params オプションのパラメータ
-   * preturn array ルート設定
+   * @return array ルート設定
    */
   public static function add(string $method, string $path, string|callable $class,
                              array $params = []): array {

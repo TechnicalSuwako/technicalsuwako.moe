@@ -108,13 +108,13 @@ class Template {
    */
   private function procDirs(string $content): string|null {
     // includeディレクティブの処理
-    $content = preg_replace_callback('/@include\((.*?)\)/s', function($m) {
-      return '<?php include("'.ROOT.'/view/'.$m[1].'.php"); ?>';
+    $content = preg_replace_callback('/@include\((.*?[\)]*)\)/s', function($m) {
+      return "<?php include(\"{ROOT}/view/{$m[1]}.php\"); ?>";
     }, $content);
 
     // kysディレクティブの処理
-    $content = preg_replace_callback('/@kys\((.*?)\)/s', function($m) {
-      return '<?php die('.$m[1].'); ?>';
+    $content = preg_replace_callback('/@kys\((.*?[\)]*)\)/s', function($m) {
+      return "<?php die({$m[1]}); ?>";
     }, $content);
 
     // forループの処理
