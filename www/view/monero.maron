@@ -1,4 +1,4 @@
-@include(common/header)
+{@ include(common/header) @}
       <h1 class="paragraph">Moneroで支援♡</h1>
       <p class="paragraph">
         欲しければ、モネロ（XMR）でご支援お願い申し上げます。
@@ -18,4 +18,4 @@
           </code>
         </pre>
       </p>
-@include(common/footer)
+{@ include(common/footer) @}

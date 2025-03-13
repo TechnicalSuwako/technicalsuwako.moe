@@ -33,7 +33,7 @@ class Mods {
       [
         'alt' => 'Monero',
         'class' => 'sns',
-        'img' => '/static/support/monero.png',
+        'img' => '/static/support/money.png',
         'href' => '/monero',
         'show' => true,
       ],

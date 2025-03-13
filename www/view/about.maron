@@ -1,4 +1,4 @@
-@include(common/header)
+{@ include(common/header) @}
       <h1 class="paragraph">諏訪子ちゃんについて質問</h1>
       <p class="paragraph">
         皆様こんにちは、諏訪子と申します。<br />
@@ -22,4 +22,4 @@
         ２０２４年末まではテクノロジーについてブログでしたが、２０２５年から主にゲーム開発について書いております。<br />
         然し、時々はテクノロジーについて書くと思います。
       </p>
-@include(common/footer)
+{@ include(common/footer) @}

@@ -60,7 +60,7 @@ class Home extends Mods {
       $tmpl->assign('sns', $this->getSns());
       $tmpl->assign('support', $this->getSupport());
       $tmpl->assign('menu', $this->getMenu());
-      $tmpl->assign('description', '');
+      $tmpl->assign('description', $description);
       $tmpl->assign('searchActive', !empty($this->searchKeywords));
 
       $tmpl->addCss('news');
