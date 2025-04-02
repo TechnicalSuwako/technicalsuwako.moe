@@ -1,6 +1,7 @@
 title: 【I2P】ドメインを作成方法
-author: 凛
-date: 2022-12-12
+uuid: 6d646f94-7cb3-4d1d-a162-3bfbd7090d26
+author: 諏訪子
+date: 2022-12-12 00:00:00
 category: server,security
 ----
 ダークネットといえば、各サイトは覚えにくい（無理）ドメイン名をついているイメージがありますね。\

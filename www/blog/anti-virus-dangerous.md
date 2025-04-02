@@ -1,6 +1,7 @@
 title: 【セキュリティ】ウィルス対策ソフトは危険
-author: 凛
-date: 2023-12-25
+uuid: 373f8a83-c0b0-4ba8-8f77-4a83c840154a
+author: 諏訪子
+date: 2023-12-25 00:00:00
 category: security
 ----
 メリークリスマス！！\

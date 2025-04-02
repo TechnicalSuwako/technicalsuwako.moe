@@ -105,6 +105,8 @@ class Template {
     unlink($tmpFile);
   }
 
+  // 機能性メソッド
+
   /**
    * テンプレートディレクティブを処理する
    *
@@ -128,9 +130,9 @@ class Template {
     $processDirectives = function($c) {
       // kysディレクティブの処理
       $c = preg_replace_callback('/\{@\s*kys\((.*?)\)\s*@\}/s', function($m) {
-        return "<?php die({$m[1]}); ?>";
+        return "<?php echo '<pre>'; print_r({$m[1]}); echo '</pre>'; die(); ?>";
       }, $c);
-    
+
       // foreachループとネストした内容の処理
       $c = preg_replace_callback('/\{@\s*foreach\s*\((.*?)\)\s*@\}/s', function($m) {
         return "<?php foreach({$m[1]}): ?>";
@@ -239,4 +241,3 @@ class Template {
     return $content;
   }
 }
-?>

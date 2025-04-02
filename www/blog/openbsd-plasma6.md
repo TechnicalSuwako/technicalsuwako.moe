@@ -1,6 +1,7 @@
 title: 【OpenBSD】KDE Plasma 6 をインストールする方法
-author: 凛
-date: 2024-09-19
+uuid: 79a7c801-f78b-4197-b887-96f6b0a167f5
+author: 諏訪子
+date: 2024-09-19 00:00:00
 category: unix
 ----
 注意：この記事執筆時点での最新のOpenBSDバージョンは7.5で、KDE Plasma 5のみが含まれています。\

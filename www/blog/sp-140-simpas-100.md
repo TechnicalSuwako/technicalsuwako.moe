@@ -1,6 +1,7 @@
 title: 【０７６】sp 1.4.0及びsimpas 1.0.0登場
-author: 凛
-date: 2024-09-24
+uuid: 266eaf02-709f-41c4-ae83-9807876c2e87
+author: 諏訪子
+date: 2024-09-24 00:00:00
 category: software release
 ----
 ## spって何？

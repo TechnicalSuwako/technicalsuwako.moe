@@ -1,6 +1,7 @@
 title: 【プログラミング】何故フレームワークやエンジンが嫌いなのか
-author: 凛
-date: 2025-01-03
+uuid: a3d516a7-0acf-45ed-979b-d3476bcdfe29
+author: 諏訪子
+date: 2025-01-03 00:00:00
 thumbnail: Yz0+Xn.png
 thumborient: top
 category: programming,rant

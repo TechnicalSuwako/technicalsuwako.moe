@@ -1,6 +1,7 @@
 title: 【Linux】Debian 11からDevuan 4に交換方法
-author: 凛
-date: 2022-11-11
+uuid: 4aa9db8c-3d76-40d2-8796-3af581595959
+author: 諏訪子
+date: 2022-11-11 00:00:00
 category: unix
 ----
 Debianはバージョン8まで良かったと思います。\

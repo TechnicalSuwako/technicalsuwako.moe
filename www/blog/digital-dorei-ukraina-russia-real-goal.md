@@ -1,6 +1,7 @@
 title: 【デジタル奴隷制度】ウクライナ”侵略”の実目的
-author: 凜
-date: 2022-03-02
+uuid: 53701786-835d-4a58-b7f7-037bd8e0ebd3
+author: 諏訪子
+date: 2022-03-02 00:00:00
 category: politics
 ----
 コロナの茶番が終わりました！！\

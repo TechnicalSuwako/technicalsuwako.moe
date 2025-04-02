@@ -1,6 +1,7 @@
 title: 【PeerTube】ストレージフォルダを変更方法
-author: 凜
-date: 2021-05-28
+uuid: 482a09a5-83bd-4e9b-85c6-66aacffbac47
+author: 諏訪子
+date: 2021-05-28 00:00:00
 category: server,hosting,storage
 ----
 PeerTubeインスタンスをインストールしましたが、もう100GBのSSDを超えました。\

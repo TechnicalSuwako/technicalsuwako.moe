@@ -1,6 +1,7 @@
 title: 【ゲーム開発】ゲーム開発業界の滅亡は今、一番良いゲーム開発者になるタイムングも今
-author: 凛
-date: 2025-02-05
+uuid: a146ada1-c710-405e-969d-125db0366e5d
+author: 諏訪子
+date: 2025-02-05 00:00:00
 thumbnail: HK7uRe.jpg
 thumborient: center
 category: gamedev,rant

@@ -1,6 +1,7 @@
 title: 【詐欺デミック】マスクをやめる時間だ！！
-author: 凛
-date: 2022-12-05
+uuid: f9f31319-1b50-4302-86f0-fb0e585424a5
+author: 諏訪子
+date: 2022-12-05 00:00:00
 category: politics,rant
 ----
 マスク外す時間です！！\

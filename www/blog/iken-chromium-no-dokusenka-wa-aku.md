@@ -1,6 +1,7 @@
 title: 【意見】chromiumの独占化＝悪
-author: 凜
-date: 2022-01-15
+uuid: 85497320-c512-4e75-b6ca-e20e8a6513d1
+author: 諏訪子
+date: 2022-01-15 00:00:00
 category: rant
 ----
 先程、SNSで下記のトゥートを書きました。

@@ -1,6 +1,7 @@
 title: 【OpenBSD】更新後「zsh: undefined symbol '_udivdi3'」というエラーの修正する方法
-author: 凛
-date: 2023-04-19
+uuid: 3a88a014-1f31-4f55-b945-101ee5be88a2
+author: 諏訪子
+date: 2023-04-19 00:00:00
 category: server,unix
 ----
 OpenBSD 7.3は公開されましたので、直ぐ全てのサーバー（64-bit）を更新しました。\

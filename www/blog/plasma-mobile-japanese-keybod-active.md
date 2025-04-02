@@ -1,6 +1,7 @@
 title: 【Plasma Mobile】日本語キーボードを有効にする方法
-author: 凜
-date: 2021-05-29
+uuid: 85939548-6169-42dc-a1a2-48fde45d6b5a
+author: 諏訪子
+date: 2021-05-29 00:00:00
 category: smartphone,unix
 ----
 やっとManjaro ARMのPlasma MobileというDEで日本語キーボードを追加されました！！\

@@ -1,6 +1,7 @@
 title: 【nginx】Torユーザーは自動で.onionリンクに移転方法
-author: 凛
-date: 2022-11-13
+uuid: 74b831a2-b973-41e8-a6e0-e27effb33b5d
+author: 諏訪子
+date: 2022-11-13 00:00:00
 category: server,security
 ----
 Torを使って「technicalsuwako.moe」にアクセスしてみたら、自動で「6qiatzlijtqo6giwvuhex5zgg3czzwrq5g6yick3stnn4xekw26zf7qd.onion」に移転させると気づきましたか？\

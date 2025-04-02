@@ -1,6 +1,7 @@
 title: 【BSD】OpenBSD、NetBSD、FreeBSD、どっと使っては良い？
-author: 凛
-date: 2024-04-23
+uuid: c86dc725-5e9a-403f-8dd7-9efabe37ea82
+author: 諏訪子
+date: 2024-04-23 00:00:00
 category: unix,rant
 ----
 [あたしの前の投稿を覚えているかもしんが、あたしは最早Linuxを使用していません。](/blog/digital-autonomy-linux-to-openbsd.xhtml)\

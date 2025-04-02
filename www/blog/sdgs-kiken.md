@@ -1,6 +1,7 @@
 title: 【デジタル監視】SDGsの危険性の紹介
-author: 凜
-date: 2022-07-19
+uuid: 24c3d651-2f49-40a1-b907-1bb2708dc677
+author: 諏訪子
+date: 2022-07-19 00:00:00
 category: politics,scam,rant
 ----
 最近、SDGsを採用している企業が増えてきました。\

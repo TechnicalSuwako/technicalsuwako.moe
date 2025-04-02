@@ -1,0 +1,20 @@
+.light-mode {
+  background: linear-gradient(rgba(236, 234, 113, 1), rgba(35, 35, 32, 0) 30%);
+  position: fixed;
+  width: 100vw;
+  height: 400vh;
+  border-radius: 50% 50% 0 0;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  z-index: 9000;
+  opacity: 1;
+  pointer-events: none;
+  transform-origin: top center;
+  animation: swing 9s ease-in-out infinite;
+}
+
+@keyframes swing {
+  0%   { transform: rotate(-15deg); }
+  50%  { transform: rotate( 15deg); }
+  100% { transform: rotate(-15deg); }
+}

@@ -1,6 +1,7 @@
 title: 【オワコンテック】spliti 1.1.0登場
-author: 凛
-date: 2023-05-24
+uuid: 976572fd-0329-401a-a39d-87f735a66234
+author: 諏訪子
+date: 2023-05-24 00:00:00
 category: software release
 ----
 ## splitiって何？

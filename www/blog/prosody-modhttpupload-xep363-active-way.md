@@ -1,6 +1,7 @@
 title: 【Prosody】mod_http_upload（XEP-0363）を有効にする方法
-author: 凜
-date: 2021-10-17
+uuid: 91429861-7512-42e6-85db-a42a716f7f45
+author: 諏訪子
+date: 2021-10-17 00:00:00
 category: server,chat
 ----
 XMPPサーバーを設置するなら、Prosodyは一番大人気ですね。\

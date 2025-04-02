@@ -1,6 +1,7 @@
 title: 【デジタル自主】０７６動画ホスティングの解決策
-author: 凛
-date: 2023-12-11
+uuid: 5bfa68bd-bc96-4015-84be-39b42febb9c1
+author: 諏訪子
+date: 2023-12-11 00:00:00
 category: server
 ----
 PeerTubeのホスティングと言えば、「高額」というイメージが浮かびます。\

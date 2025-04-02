@@ -4,8 +4,11 @@
   <meta content="text/html; charset=utf-8" http-equiv="content-type" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="/favicon.ico" id="favicon">
-  <title>テクニカル諏訪子: {{ $pagetit }}</title>
+  <title>{{ SITEINFO['title'] }}: {{ $pagetit }}</title>
   <link rel="stylesheet" type="text/css" href="/static/style.css" />
+{@ if (APRILFOOL_ENABLED && isset($_COOKIE['lightmode'])) @}
+  <link rel="stylesheet" type="text/css" href="/static/style-light.css" />
+{@ endif @}
 {@ if (isset($custCss) && !empty($custCss) && !is_bool($custCss)) @}
   {@ foreach ($custCss as $css) @}
   {{{ $css }}}
@@ -18,30 +21,43 @@
   {@ endif @}
 {@ endif @}
   <meta name="description" content="{{ $description }}" />
+  <meta name="keywords" content="{{ SITEINFO['tags'].',' }}{@ if (isset($meta)) @}{@ foreach ($meta->category as $cat) @}{{ $cat.',' }}{@ endforeach @}{@ endif @}" />
 
-  <meta property="og:title" content="テクニカル諏訪子: {{ $pagetit }}" />
+  <meta property="og:title" content="{{ SITEINFO['title'] }}: {{ $pagetit }}" />
   <meta property="og:description" content="{{ $description }}" />
   <meta property="og:type" content="{{ isset($meta) && isset($meta->thumbnail) ? 'article' : 'website' }}" />
-  <meta property="og:url" content="{{ isset($_SERVER['REQUEST_URI']) ? 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] : 'https://' . $_SERVER['HTTP_HOST'] }}" />
+  <meta property="og:url" content="{{ isset($_SERVER['REQUEST_URI']) ? 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] : 'https://'.$_SERVER['HTTP_HOST'] }}" />
   {@ if (isset($meta) && isset($meta->thumbnail)) @}
   <meta property="og:image" content="https://{{ $_SERVER['HTTP_HOST'] }}/static/article/{{ $meta->thumbnail }}" />
   {@ endif @}
   
+  {@ if (TWITTER_HANDLE != '') @}
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:card" content="@techsuwako" />
-  <meta name="twitter:title" content="テクニカル諏訪子: {{ $pagetit }}" />
-  <meta name="twitter:url" content="{{ isset($_SERVER['REQUEST_URI']) ? 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] : 'https://' . $_SERVER['HTTP_HOST'] }}" />
+  <meta name="twitter:card" content="{{ TWITTER_HANDLE }}" />
+  <meta name="twitter:title" content="{{ SITEINFO['title'] }}: {{ $pagetit }}" />
+  <meta name="twitter:url" content="{{ isset($_SERVER['REQUEST_URI']) ? 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] : 'https://'.$_SERVER['HTTP_HOST'] }}" />
   <meta name="twitter:description" content="{{ $description }}" />
   {@ if (isset($meta) && isset($meta->thumbnail)) @}
   <meta name="twitter:image:src" content="https://{{ $_SERVER['HTTP_HOST'] }}/static/article/{{ $meta->thumbnail }}" />
   {@ endif @}
-  <link rel="alternate" type="application/atom+xml" title="テクニカル諏訪子 feed" href="/blog.atom" />
+  {@ endif @}
+  {@ if (ATOM_ENABLED) @}
+  <link rel="alternate" type="application/atom+xml" title="{{ SITEINFO['title'] }} feed" href="/blog.atom" />
+  {@ endif @}
 </head>
 <body>
+  {@ if (APRILFOOL_ENABLED && isset($_COOKIE['lightmode'])) @}
+  <div class="light-mode"></div>
+  {@ endif @}
   <div class="container">
     <header>
       <div class="logo">
         テクニカル諏訪子
+        {@ if (APRILFOOL_ENABLED) @}
+        <a href="/light-on?rdr={{ $_SERVER['REQUEST_URI'] }}">
+          <img width="40px" src="/static/lamp-{{ isset($_COOKIE['lightmode']) ? 'off' : 'on' }}.png" alt="ライトモード{{ isset($_COOKIE['lightmode']) ? '無' : '有' }}効" />
+        </a>
+        {@ endif @}
       </div>
       <nav>
 {@ foreach ($menu as $m) @}

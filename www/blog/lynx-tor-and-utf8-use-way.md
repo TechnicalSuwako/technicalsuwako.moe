@@ -1,6 +1,7 @@
 title: 【Lynx】TorとUTF-8で使い方
-author: 凜
-date: 2022-03-25
+uuid: dabc3275-92e0-422b-ab4d-0d40f0e432e5
+author: 諏訪子
+date: 2022-03-25 00:00:00
 category: unix,security
 ----
 Javascriptは要りません！！\

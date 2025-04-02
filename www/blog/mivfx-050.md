@@ -1,6 +1,7 @@
 title: 【０７６】mivfx 0.5.0登場
-author: 凛
-date: 2024-05-03
+uuid: 9632f77c-040c-411c-899b-ab96b4a79a54
+author: 諏訪子
+date: 2024-05-03 00:00:00
 category: software release
 ----
 ## mivfxって何？

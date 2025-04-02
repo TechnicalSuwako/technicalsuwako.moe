@@ -1,6 +1,7 @@
 title: 【ハード】IBM ThinkPad T43にSSDを入る方法
-author: 凛
-date: 2023-02-03
+uuid: 32ce055f-5db4-4750-b51b-c6a28fca85b1
+author: 諏訪子
+date: 2023-02-03 00:00:00
 category: unix
 ----
 秋葉原のジャンク通りでやっとIBM ThinkPad T43のめちゃくちゃ古いノートパソコンを見つけました。\

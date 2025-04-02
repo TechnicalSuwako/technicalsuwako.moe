@@ -1,6 +1,7 @@
 title: 【OpenBSD】xmodmapを使って英数（Caps Lock）キーをスーパーキーに変更する方法
-author: 凛
-date: 2023-04-01
+uuid: 296a2b68-1534-4d95-aa1d-76e9ad602b7f
+author: 諏訪子
+date: 2023-04-01 00:00:00
 category: unix
 ----
 [２ヶ月前はThinkPad T43を購入しましたが、覚えますか？](/blog/thinkpad-t43-ssd-install-way.xhtml)\

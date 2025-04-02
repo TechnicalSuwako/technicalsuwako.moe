@@ -1,6 +1,7 @@
 title: 【デジタル自主】匿名者に必須なブラウザ拡張機能
-author: 凛
-date: 2022-09-18
+uuid: 7804a6d9-6ddf-4355-84d0-2b561ee819a6
+author: 諏訪子
+date: 2022-09-18 00:00:00
 category: privacy,security
 ----
 ## 2023年09月15日の更新

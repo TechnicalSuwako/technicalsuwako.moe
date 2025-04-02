@@ -1,6 +1,7 @@
 title: 【詐欺デミック】マスクをやめる時間だ！！（２４時間後の状況）
-author: 凛
-date: 2022-12-06
+uuid: aded45b5-fe99-4001-9317-5b9615a8fb2c
+author: 諏訪子
+date: 2022-12-06 00:00:00
 category: politics,rant
 ----
 [昨日は「マスクをやめる時間だ！！」って記事を公開しました。](/blog/mask-stop-time.xhtml)\

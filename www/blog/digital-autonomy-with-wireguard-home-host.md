@@ -1,6 +1,7 @@
 title: 【デジタル自主】自宅サーバーからWireGuardを使ったホスティング方法
-author: 凛
-date: 2023-07-03
+uuid: b4bfa3f3-f53b-4f41-8f75-11619e2346f0
+author: 諏訪子
+date: 2023-07-03 00:00:00
 category: server,security
 ----
 WireGuardは非常に便利ですね。\

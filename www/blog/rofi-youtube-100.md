@@ -1,6 +1,7 @@
 title: 【０７６】rofi-youtube 1.0.0登場
-author: 凛
-date: 2023-06-10
+uuid: a675e960-4e86-4dda-b6a8-561b1f49e999
+author: 諏訪子
+date: 2023-06-10 00:00:00
 category: software release
 ----
 ## rofi-youtubeって何？

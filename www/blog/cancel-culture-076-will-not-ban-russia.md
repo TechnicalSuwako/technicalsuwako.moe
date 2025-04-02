@@ -1,6 +1,7 @@
 title: 【キャンセルカルチャー】全宇宙の会社はロシアに対して差別しているみたい…
-author: 凜
-date: 2022-03-09
+uuid: 6395b0eb-6a3f-457c-8b6c-19b0e40cdbbc
+author: 諏訪子
+date: 2022-03-09 00:00:00
 category: company
 ----
 [「テクノロジーと関係ないでしょ！」と思ったら、現在主にIT関連の会社はロシアから同時に退会しています。](https://ass.technicalsuwako.moe/list_of_businesses_-_mar_8_v5.png)\

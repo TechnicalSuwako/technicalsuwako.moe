@@ -1,6 +1,7 @@
 title: 【Linux】2FAより安全？SimPas！
-author: 凜
-date: 2022-06-21
+uuid: cdc08f3a-23df-44bb-a73f-0dcbfb5db496
+author: 諏訪子
+date: 2022-06-21 00:00:00
 category: security,self promotion
 ----
 2FAを使いますか？\

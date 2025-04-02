@@ -1,6 +1,7 @@
 title: 【デジタル監視】プライバシーに一番の脅威は監視カメラ、二番はスマホ
-author: 凛
-date: 2023-03-08
+uuid: 2b77c21a-be1e-41a6-b34c-4c648e56c487
+author: 諏訪子
+date: 2023-03-08 00:00:00
 category: politics,security,rant
 ----
 やっとオンラインで匿名化出来たわね。\

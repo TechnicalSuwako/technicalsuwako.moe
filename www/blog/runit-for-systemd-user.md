@@ -1,9 +1,9 @@
 title: 【Linux】systemdユーザー向けrunit使い方
-author: 凛
-date: 2022-09-08
+uuid: 2a508052-dbc0-470d-8b11-84926a000d28
+author: 諏訪子
+date: 2022-09-08 00:00:00
 category: unix
 ----
-
 コマンド | runit | systemd
 -- | -- | --
 サービスの有効化 | ln -s /etc/runit/sv/<サービス名> /run/runit/service | systemctl enable <サービス名>

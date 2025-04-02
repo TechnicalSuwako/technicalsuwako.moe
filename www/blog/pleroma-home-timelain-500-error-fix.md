@@ -1,6 +1,7 @@
 title: 【Pleroma】ホームタイムラインで500エラーの修正方法
-author: 凜
-date: 2022-05-31
+uuid: aa5c4891-d5ef-47b8-a729-79d672bbef5f
+author: 諏訪子
+date: 2022-05-31 00:00:00
 category: server,hosting
 ----
 [最近、あたしのSNSのホームタイムラインで500エラーが発生される事が多くなりました。](https://social.076.ne.jp)\

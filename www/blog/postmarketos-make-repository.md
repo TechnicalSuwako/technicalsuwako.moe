@@ -1,6 +1,7 @@
 title: 【PostmarketOS】自分のレポジトリを作り方
-author: 凛
-date: 2023-10-15
+uuid: 92c0bc3f-1e83-4ba0-abea-0a3dcf9889b1
+author: 諏訪子
+date: 2023-10-15 00:00:00
 category: smartphone,unix
 ----
 [半年前に言った通り、あたしのパソコンでのLinuxを使用歴が非常に長いですが、スマホでの使用歴はそれ程長くないのです。](/blog/crux-make-port-repository.xhtml)\

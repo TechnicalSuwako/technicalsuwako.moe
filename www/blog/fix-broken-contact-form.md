@@ -1,6 +1,7 @@
 title: 【PHP】正しい連絡フォームの作り方（クライアント側をぜったいに信用するな！！）
-author: 凛
-date: 2023-08-04
+uuid: 8b2f29f2-5a39-4dc1-bde4-ecc607759e8c
+author: 諏訪子
+date: 2023-08-04 00:00:00
 category: programming
 ----
 ## 問題

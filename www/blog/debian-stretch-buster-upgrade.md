@@ -1,6 +1,7 @@
 title: Debian 9（stretch）→10（buster）バージョンアップする方法
-author: 凜
-date: 2019-07-19
+uuid: bbce7d82-9038-4bcc-a64e-dc581855831e
+author: 諏訪子
+date: 2019-07-19 00:00:00
 category: unix
 ----
 今月からDebian 10（buster）の安定版がリリースされました。\

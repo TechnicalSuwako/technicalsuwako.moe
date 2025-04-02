@@ -1,6 +1,7 @@
 title: 【プログラミング】アドバイス２：早期リターン
-author: 凛
-date: 2023-12-21
+uuid: d1ccf2bf-9977-443f-adbb-d21ef45c8786
+author: 諏訪子
+date: 2023-12-21 00:00:00
 category: programming
 ----
 [前回は運命のピラミッドを避ける事について話しました。](/blog/programming-pyramid-of-doom.xhtml)\

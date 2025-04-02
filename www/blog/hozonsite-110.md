@@ -1,5 +1,6 @@
 title: 【０７６】保存サイト 1.1.0登場
-author: 凛
+uuid: 02b4131c-aa6e-479e-845c-da044ececbb5
+author: 諏訪子
 date: 2023-07-17 02:30:00
 category: software release
 ----

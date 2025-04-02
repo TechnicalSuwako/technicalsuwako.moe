@@ -1,6 +1,7 @@
 title: 【Tor】出口ノードの設置方法
-author: 凛
-date: 2022-11-10
+uuid: a272f617-a44e-4c58-8248-8ca25ef9832f
+author: 諏訪子
+date: 2022-11-10 00:00:00
 category: unix,server,security
 ----
 今回はOpenBSD及びDevuanのみでの設置方法を説明すると思います。\

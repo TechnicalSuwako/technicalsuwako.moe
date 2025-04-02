@@ -1,6 +1,7 @@
 title: 【０７６】保存サイト 1.2.0登場
-author: 凛
-date: 2024-04-08
+uuid: 79f45a50-f28c-4c07-9d3b-7ba144974543
+author: 諏訪子
+date: 2024-04-08 00:00:00
 category: software release
 ----
 保存サイト は1.2.0にバージョンアップしました！！

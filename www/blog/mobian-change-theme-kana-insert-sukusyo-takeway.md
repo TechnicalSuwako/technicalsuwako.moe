@@ -1,6 +1,7 @@
 title: 【Mobian】テーマの変更、日本語（今は仮名だけ）を入力、スクショを取り方
-author: 凜
-date: 2020-12-19
+uuid: 43091261-be3b-4c16-ab34-0920b38b1622
+author: 諏訪子
+date: 2020-12-19 00:00:00
 category: smartphone,unix,rant
 ----
 スマホでMobian（モービアン）を使っていますが、日常使えるにはもう少し変更しないといけません。

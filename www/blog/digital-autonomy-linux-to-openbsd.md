@@ -1,6 +1,7 @@
 title: 【デジタル自主】LinuxからOpenBSDに乗り換えた理由
-author: 凛
-date: 2024-04-10
+uuid: 353cb324-6c14-4096-8fb9-073c27b86078
+author: 諏訪子
+date: 2024-04-10 00:00:00
 category: unix
 ----
 あたしのGit履歴を見たならば、GNU MakeをBSD Makeに徐々に置き換え、GPLv2を2条項BSDライセンスに置き換え、益々OpenBSDサポートを優先している事に気付いたかもしん。\

@@ -1,6 +1,7 @@
 title: 【仮想通貨】cointopで確認する方法
-author: 凜
-date: 2022-03-18
+uuid: b302ee6f-c418-4fa6-a678-05e128263848
+author: 諏訪子
+date: 2022-03-18 00:00:00
 category: crypto
 ----
 ２日前、東京でビットコインキャッシュ（BCH）のミートアップに参加しました。\

@@ -1,6 +1,7 @@
 title: 【デジタル自主】OSの成功性には、静的リンクが必要
-author: 禀
-date: 2024-07-07
+uuid: 1d886b75-6966-4163-beb4-d8ff0025300f
+author: 諏訪子
+date: 2024-07-07 00:00:00
 category: programming,rant
 ----
 あたしは動的リンクを嫌っているわけではありません。\

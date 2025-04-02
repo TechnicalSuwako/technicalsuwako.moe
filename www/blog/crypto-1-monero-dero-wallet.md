@@ -1,6 +1,7 @@
 title: 【仮想通貨】第１部～MoneroとDeroウォレットを設置する方法
-author: 凜
-date: 2024-03-30
+uuid: 654d1acc-df45-4686-9f09-c910cc50a38c
+author: 諏訪子
+date: 2024-03-30 00:00:00
 category: crypto
 ----
 ## 仮想通貨とは？

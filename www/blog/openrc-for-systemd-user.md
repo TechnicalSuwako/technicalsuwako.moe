@@ -1,6 +1,7 @@
 title: 【Linux】systemdユーザー向けOpenRC使い方
-author: 凛
-date: 2022-11-12
+uuid: ecae3e98-e0ed-4b78-b4bf-dcfd6958dfc4
+author: 諏訪子
+date: 2022-11-12 00:00:00
 category: unix
 ----
 

@@ -1,6 +1,7 @@
 title: 【HTML】静的サイトジェネレーター利用せず簡単に静的サイト管理する方法
-author: 凛
-date: 2023-02-07
+uuid: 41fd074f-0fd8-4d5c-8fc5-271144ce37d1
+author: 諏訪子
+date: 2023-02-07 00:00:00
 category: programming,webdev
 ----
 手動で静的サイトを作るのは簡単ですが、ちょっと面倒くさいですので、みんなはCMS（WordPress、fc2等）を使います。\

@@ -1,6 +1,7 @@
 title: 【０７６】URLロリ 2.0.2登場
-author: 凛
-date: 2023-05-12
+uuid: 8ea54cf6-fd86-4d88-8c6a-4cfb31e634ed
+author: 諏訪子
+date: 2023-05-12 00:00:00
 category: software release
 ----
 URLロリ は2.0.2にバージョンアップしました！！

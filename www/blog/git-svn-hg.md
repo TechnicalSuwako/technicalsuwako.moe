@@ -1,6 +1,7 @@
 title: 【バージョン管理】Git、SVN、Mercurialの比較
-author: 凛
-date: 2024-12-24
+uuid: 2516f7e7-2053-47d7-a5cc-498ffee3d206
+author: 諏訪子
+date: 2024-12-24 00:00:00
 thumbnail: P3SEpa.png
 thumborient: bottom
 category: programming,server,rant

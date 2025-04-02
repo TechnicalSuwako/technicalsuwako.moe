@@ -10,9 +10,10 @@ class Markdown {
   private array $codeBlockContent = [];
   private const METADATA_LINE = "----";
 
-  public function __construct(string $path) {
+  public function __construct(string $path, ?string $lang = null) {
     $this->html = [];
-    $this->path = ROOT.'/blog/'.$path.'.md';
+    if ($lang) $this->path = ROOT.'/blog/'.$lang.'/'.$path.'.md';
+    else $this->path = ROOT.'/blog/'.$path.'.md';
 
     if (!file_exists($this->path)) {
       header('Location: /404');
@@ -23,7 +24,7 @@ class Markdown {
   /**
    * メタデータを取得する
    * 
-   * @return \stdClass メタデータオブジェクト
+   * @return \stdClass  メタデータオブジェクト
    */
   public function getMetadata(): \stdClass {
     $content = file_get_contents($this->path);
@@ -58,7 +59,7 @@ class Markdown {
   /**
    * Markdownをパースする
    * 
-   * @return string HTMLとしてレンダリングされたコンテンツ
+   * @return string  HTMLとしてレンダリングされたコンテンツ
    */
   public function parse(): string {
     $content = file_get_contents($this->path);
@@ -248,11 +249,13 @@ class Markdown {
     return implode("\n", $this->html);
   }
 
+  // 機能性メソッド
+
   /**
    * インラインのMarkdown記法をパースする
    * 
-   * @param string $text パースするテキスト
-   * @return string HTMLとしてレンダリングされたテキスト
+   * @param string $text  パースするテキスト
+   * @return string  HTMLとしてレンダリングされたテキスト
    */
   private function parseInline(string $text): string {
     // 太字
@@ -290,9 +293,9 @@ class Markdown {
   /**
    * リストを作成する
    * 
-   * @param array $items リストアイテムの配列
-   * @param int $maxLevel 最大ネストレベル
-   * @return string HTMLのリスト
+   * @param array $items  リストアイテムの配列
+   * @param int $maxLevel  最大ネストレベル
+   * @return string  HTMLのリスト
    */
   private function createList(array $items, int $maxLevel = 1): string {
     if (empty($items)) return '';
@@ -301,9 +304,10 @@ class Markdown {
     $currentLevel = 0;
     $listStack = [];
     $currentType = '';
-    $level = isset($item['level']) ? $item['level'] : $currentLevel;
 
     foreach ($items as $item) {
+      $level = isset($item['level']) ? $item['level'] : $currentLevel;
+
       while ($currentLevel > $level)
         $html .= str_repeat('  ', $currentLevel)."</".array_pop($listStack).">\n";
 
@@ -336,7 +340,7 @@ class Markdown {
   /**
    * コードブロックを作成する
    * 
-   * @return string HTMLのコードブロック
+   * @return string  HTMLのコードブロック
    */
   private function createCodeBlock(): string {
         $code = htmlspecialchars(implode("\n", $this->codeBlockContent));
@@ -351,9 +355,9 @@ class Markdown {
   /**
    * テーブルを作成する
    * 
-   * @param array $headers ヘッダー配列
-   * @param array $rows 行データの配列
-   * @return string HTMLのテーブル
+   * @param array $headers  ヘッダー配列
+   * @param array $rows  行データの配列
+   * @return string  HTMLのテーブル
    */
   private function createTable(array $headers, array $rows): string {
     $html = "<table>\n";
@@ -384,4 +388,3 @@ class Markdown {
    return $html;
   }
 }
-?>

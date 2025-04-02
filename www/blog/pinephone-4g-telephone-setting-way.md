@@ -1,6 +1,7 @@
 title: 【Pinephone】4G、通話等の設定方法
-author: 凜
-date: 2020-12-06
+uuid: b8a75d92-4e01-45b2-bfcd-0cea1d8a3028
+author: 諏訪子
+date: 2020-12-06 00:00:00
 category: smartphone,unix
 ----
 先月Pinephoneというスマホを買いましたが、残念ながら、ソフトバンクのUSIMを使えないと気づいました…\

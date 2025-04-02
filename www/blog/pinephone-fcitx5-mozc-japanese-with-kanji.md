@@ -1,6 +1,7 @@
 title: 【Pinephone】fcitx5+mozcで日本語入力方法（漢字も！！）
-author: 凜
-date: 2020-12-18
+uuid: 8b87a112-e02d-4503-a0bc-baa6f623ecfc
+author: 諏訪子
+date: 2020-12-18 00:00:00
 category: smartphone,unix
 ----
 本当に難しかったですが、やっとMobianで仮名も漢字も入力できます！！\

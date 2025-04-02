@@ -1,6 +1,7 @@
 title: 【OpenBSD】Moneroウォレットとbtopのコンパイル方法
-author: 凜
-date: 2024-04-01
+uuid: 773dcd47-90ff-4729-adc4-e71b0fa2e69a
+author: 諏訪子
+date: 2024-04-01 00:00:00
 category: crypto,unix
 ----
 ## Monero CLI ウォレットのコンパイル方法

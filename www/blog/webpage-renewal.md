@@ -1,6 +1,7 @@
 title: ホームページのリニュアル
-author: 凜
-date: 2022-01-27
+uuid: 4d120cde-ccfd-4f53-8d75-e4ff78f9b3e2
+author: 諏訪子
+date: 2022-01-27 00:00:00
 category: company
 ----
 リニュアルに成功です！\

@@ -1,6 +1,7 @@
 title: 【ブログ】（もう一回）ホームページのリニュアル
-author: 凜
-date: 2025-03-02
+uuid: a94c17af-d229-41eb-b743-670f31cb513d
+author: 諏訪子
+date: 2025-03-02 00:00:00
 thumbnail: o_53803618dc1691.28179609.jpg
 category: company
 ----

@@ -1,6 +1,7 @@
 title: 【SSH】バックスペース、矢印等の変な表示の修正方法
-author: 凜
-date: 2022-06-22
+uuid: 443c74a1-3c5d-45ab-9f0a-27f65b61ad80
+author: 諏訪子
+date: 2022-06-22 00:00:00
 category: server,unix
 ----
 昨日は古いMacBookProでFreeBSDをインストールしてみました。\

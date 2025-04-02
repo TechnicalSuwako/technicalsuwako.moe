@@ -1,6 +1,7 @@
 title: 【プログラミング】Zig言語を使ってC向けのライブラリを利用する方法
-author: 凛
-date: 2023-05-18
+uuid: 384a0420-8a10-4bd5-885b-29b72e8eb638
+author: 諏訪子
+date: 2023-05-18 00:00:00
 category: programming
 ----
 ゲーム開発といえば、C++やUnity、Unreal等がが頭に浮かびますね。\

@@ -1,6 +1,7 @@
 title: 【HTML】静的サイトジェネレーター利用せず簡単に静的サイト編集する方法
-author: 凛
-date: 2023-02-08
+uuid: 934fb1be-4645-493a-9211-0849340f4d18
+author: 諏訪子
+date: 2023-02-08 00:00:00
 category: programming,webdev
 ----
 昨日は静的サイト管理する方法を教えました。\

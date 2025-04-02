@@ -1,6 +1,7 @@
 title: 【０７６】spliti 2.2.0登場
-author: 凛
-date: 2024-03-31
+uuid: 353f778e-4a77-4237-b215-f85f3248b4ac
+author: 諏訪子
+date: 2024-03-31 00:00:00
 category: software release
 ----
 ## splitiって何？

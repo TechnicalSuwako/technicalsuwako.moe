@@ -1,6 +1,7 @@
 title: 【プログラミング】C、C++からRustに書き換えなくた方が良い
-author: 凛
-date: 2024-12-08
+uuid: 7016f05b-c1dc-4572-a7cd-8b40d7a989e4
+author: 諏訪子
+date: 2024-12-08 00:00:00
 category: programming
 ----
 2022年、IT業界全体でC、C++、Go、PHP、Python、Java、C#、Swift等、全てのコードベースをRustに書き換えようという大きな動きがありましたが、幸いにも失敗に終わりました。\

@@ -47,7 +47,7 @@
 }
 
 .news-date {
-  background: #444;
+  background: #44443b;
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
   font-size: 0.875rem;
@@ -55,7 +55,7 @@
 
 .news-category {
   background: #b8b515;
-  color: #fff;
+  color: #232320;
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
   font-size: 0.875rem;

@@ -1,6 +1,7 @@
 title: 【０７６】farfetch 0.1.0登場
-author: 凛
-date: 2024-06-22
+uuid: 95fbfdbd-59c7-42c7-b4ae-3d9e47c6b65a
+author: 諏訪子
+date: 2024-06-22 00:00:00
 category: software release
 ----
 ## farfetchって何？

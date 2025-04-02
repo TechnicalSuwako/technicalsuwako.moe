@@ -1,6 +1,7 @@
 title: 【Mobian】アップデート問題の修正方法
-author: 凜
-date: 2020-11-29
+uuid: 9b9da9f6-7061-40fd-8f97-ba870cb0e943
+author: 諏訪子
+date: 2020-11-29 00:00:00
 category: smartphone,unix
 ----
 注意：Mobianをアップデートする前に、絶対にSSHサーバーをインストールしておいて下さい：

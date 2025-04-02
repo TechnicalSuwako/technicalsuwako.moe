@@ -1,6 +1,7 @@
 title: 【デジタル自主】キャッシュレス社会の危険性
-author: 凜
-date: 2022-02-16
+uuid: 0ba286b7-5bfb-41ae-9370-a12cf038955b
+author: 諏訪子
+date: 2022-02-16 00:00:00
 category: crypto,economics,rant
 ----
 現在、日本はまだ現金を使っている社会です。\

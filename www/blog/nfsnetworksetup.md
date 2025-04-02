@@ -1,6 +1,7 @@
 title: 【BSD】NFSを設置する方法
-author: 凛
-date: 2024-08-16
+uuid: 8919a747-11cc-4677-9c12-3c782e81a3bb
+author: 諏訪子
+date: 2024-08-16 00:00:00
 category: unix,network,storage,server
 ----
 2年前ぐらい、サーバでどんどんLinuxからOpenBSDに乗り換え始めた時に、NFSというファイルシステムを見つけました。\

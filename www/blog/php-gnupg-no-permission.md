@@ -1,6 +1,7 @@
 title: 【PHP】gnupgの許可なし
-author: 凜
-date: 2021-12-03
+uuid: 9887a08d-8c15-40c3-8d7f-afcba2871929
+author: 諏訪子
+date: 2021-12-03 00:00:00
 category: programming
 ----
 シェルでgpgを実行出来ますが、PHPから実行すると、「`false`」が出ました。

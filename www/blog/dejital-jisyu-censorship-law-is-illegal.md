@@ -1,6 +1,7 @@
 title: 【デジタル自主】検閲法律＝違法
-author: 凜
-date: 2021-12-27
+uuid: 28177351-f6bc-4670-ab1a-74a8f845ca40
+author: 諏訪子
+date: 2021-12-27 00:00:00
 category: free speech
 ----
 検閲の関して法律は違法ばかりです。\

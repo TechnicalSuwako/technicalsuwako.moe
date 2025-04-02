@@ -1,6 +1,7 @@
 title: 【デジタル自主】OpenBSDでGeminiサーバーを設置方法
-author: 凛
-date: 2023-06-06
+uuid: 2f9380d7-5b48-4101-8949-32c18fb14b8d
+author: 諏訪子
+date: 2023-06-06 00:00:00
 category: unix,server
 ----
 HTTPは比較的重いため、最近ではGeminiが徐々に人気を集めています。\

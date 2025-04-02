@@ -1,6 +1,7 @@
 title: 【０７６】byobu 5.2登場
-author: 凛
-date: 2023-12-12
+uuid: 2821b2f8-6fd3-4632-b794-16b3e0c45cf0
+author: 諏訪子
+date: 2023-12-12 00:00:00
 category: software release
 ----
 ## 変更

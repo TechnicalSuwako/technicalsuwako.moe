@@ -1,6 +1,7 @@
 title: 【サービスの変更】076.ne.jp、076.moe、076.wtf
-author: 凜
-date: 2021-12-26
+uuid: a86faaad-3640-4d1f-a58f-4a06e89e3219
+author: 諏訪子
+date: 2021-12-26 00:00:00
 category: company
 ----
 ０７６のサービスをご利用頂き、有難う御座います。\

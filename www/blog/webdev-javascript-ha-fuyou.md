@@ -1,6 +1,7 @@
 title: 【ウエブ開発】ウエブ開発者様へ、JavaScriptは不要
-author: 凜
-date: 2022-03-28
+uuid: 7d3f44c9-e449-43e2-9daa-16e9e0743ef5
+author: 諏訪子
+date: 2022-03-28 00:00:00
 category: webdev,rant
 ----
 私の建前は本音と同じですので、投稿を書いたらあんま丁寧じゃないと思いますね。\

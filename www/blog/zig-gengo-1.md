@@ -1,6 +1,7 @@
 title: 【Zig言語】第１部～基本的な紹介・セットアップ・「こんにちは、世界」
-author: 凛
-date: 2023-08-01
+uuid: ec6d3b8a-cfd1-4a43-9597-506096cefba4
+author: 諏訪子
+date: 2023-08-01 00:00:00
 category: programming
 ----
 ## Zig言語シリーズ

@@ -1,6 +1,7 @@
 title: 【Crux】自分のポートとレポジトリを作り方
-author: 凛
-date: 2023-04-18
+uuid: 62d30d2a-1aa5-436d-b704-0a82b32d7de9
+author: 諏訪子
+date: 2023-04-18 00:00:00
 category: unix
 ----
 原則して、Cruxはパッケージマネージャが入らなくて、FreeBSD、OpenBSD、NetBSD等とみたいにポーツコレクションが有ります。\

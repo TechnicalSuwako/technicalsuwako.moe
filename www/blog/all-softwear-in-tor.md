@@ -1,6 +1,7 @@
 title: 【Tor】すべてのソフトウェアをいつでもTorを通じて使用する方法
-author: 凜
-date: 2022-08-03
+uuid: 74f056b3-c36c-4061-84ae-c48521f2e9c4
+author: 諏訪子
+date: 2022-08-03 00:00:00
 category: privacy
 ----
 [4ヶ月前、LynxをTorで使用する方法についての記事を書きました。](/blog/lynx-tor-and-utf8-use-way.xhtml)\

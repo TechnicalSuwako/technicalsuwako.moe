@@ -1,6 +1,7 @@
 title: 【海賊版ソフト】存在している理由は？
-author: 凜
-date: 2021-07-23
+uuid: 0c3e6245-6e8b-49bc-8374-a2169ceff502
+author: 諏訪子
+date: 2021-07-23 00:00:00
 thumbnail: 85792409_p0.png
 thumborient: center
 category: piracy,rant

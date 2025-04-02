@@ -1,6 +1,7 @@
 title: 【０７６】乗換 1.0.0登場
-author: 凛
-date: 2023-06-22
+uuid: 4245c1be-52dc-4263-8680-cd4081fa2f2f
+author: 諏訪子
+date: 2023-06-22 00:00:00
 category: software release
 ----
 ## 乗換って何？

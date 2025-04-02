@@ -1,6 +1,7 @@
 title: 【C言語】静的リンクする方法
-author: 凛
-date: 2024-04-16
+uuid: c03d61db-815e-4c06-86a3-ee60f7fde458
+author: 諏訪子
+date: 2024-04-16 00:00:00
 category: programming
 ----
 ## 注意点

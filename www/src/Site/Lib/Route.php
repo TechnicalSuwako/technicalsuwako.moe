@@ -8,7 +8,7 @@ class Route {
   /**
    * ルート設定を言語固有のハンドラで初期化する
    *
-   * @param array $routes ルート設定の配列
+   * @param array $routes  ルート設定の配列
    * @return void
    */
   public static function init(array $routes): void {
@@ -18,11 +18,11 @@ class Route {
   /**
    * ルートを追加する
    *
-   * @param string $method HTTPメソッド
-   * @param string $path URLパス
-   * @param string|callable $class ハンドラクラスとメソッド、またはコールバック
-   * @param array $params オプションのパラメータ
-   * @return array ルート設定
+   * @param string $method  HTTPメソッド
+   * @param string $path  URLパス
+   * @param string|callable $class  ハンドラクラスとメソッド、またはコールバック
+   * @param array $params  オプションのパラメータ
+   * @return array  ルート設定
    */
   public static function add(string $method, string $path, string|callable $class,
                              array $params = []): array {
@@ -43,7 +43,7 @@ class Route {
    * @param array|string|callable $class
    * @return void
    */
-  public static function setFallback(array|string|callback $class): void {
+  public static function setFallback(array|string|callable $class): void {
     self::$fallback = [
       'class' => $class,
       'params' => [],
@@ -53,7 +53,7 @@ class Route {
   /**
    * 適切なルートをマッチさせて実行する
    *
-   * @param string $uri リクエストURI
+   * @param string $uri  リクエストURI
    * @return void
    */
   public static function dispatch(string $uri): void {
@@ -65,7 +65,15 @@ class Route {
     if ($path === '') {
       self::executeClass([
         'class' => [new \Site\Controller\Home(), 'show'],
-        'params' => [],
+        'params' => ['lang' => 'ja'],
+      ]);
+      return;
+    }
+
+    if ($path === 'en') {
+      self::executeClass([
+        'class' => [new \Site\Controller\Home(), 'show'],
+        'params' => ['lang' => 'en'],
       ]);
       return;
     }
@@ -105,9 +113,9 @@ class Route {
   /**
    * ルートパターンとパスをマッチングする
    *
-   * @param string $pattern ルートパターン
-   * @param string $path 現在のパス
-   * @param array $matches マッチを格納する参照
+   * @param string $pattern  ルートパターン
+   * @param string $path  現在のパス
+   * @param array $matches  マッチを格納する参照
    * @return bool
    */
   protected static function matchRoute(string $pattern, string $path,
@@ -121,8 +129,8 @@ class Route {
   /**
    * パターンに基づいてパスから名前付きパラメータを抽出する
    *
-   * @param string $pattern ルートパターン
-   * @param string $path 現在のパス
+   * @param string $pattern  ルートパターン
+   * @param string $path  現在のパス
    * @return array
    */
   protected static function extractParams(string $pattern, string $path): array {
@@ -144,7 +152,7 @@ class Route {
   /**
    * ルートクラスを実行する
    *
-   * @param array $route ルート設定
+   * @param array $route  ルート設定
    * @return void
    */
   protected static function executeClass(array $route): void {
@@ -153,4 +161,3 @@ class Route {
     }
   }
 }
-?>

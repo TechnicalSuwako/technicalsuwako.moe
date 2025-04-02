@@ -1,6 +1,7 @@
 title: 【デジタル自主】NeovimとGiteaでメモの書き方
-author: 凜
-date: 2022-06-24
+uuid: 25f46582-cf22-46db-8065-67dab1082211
+author: 諏訪子
+date: 2022-06-24 00:00:00
 category: unix
 ----
 OneNote、Evernote等みたいなソフトを使うのは重くて危険です。\

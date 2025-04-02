@@ -1,6 +1,7 @@
 title: 【Tox】サーバーの無いチャットソフトの紹介
-author: 凜
-date: 2022-04-06
+uuid: 7ef0ef99-5851-4df5-a8e9-0739ec71a8fc
+author: 諏訪子
+date: 2022-04-06 00:00:00
 category: unix,chat
 ----
 毎回LINEやDiscordユーザーとXMPPかIRCについて話したら、「複雑過ぎでしょ！！」の様な反応があります。\

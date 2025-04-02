@@ -1,6 +1,7 @@
 title: 【OpenBSD】機動する時に、「ERR M」が表示される問題の修正方法
-author: 凛
-date: 2024-09-20
+uuid: a8d1f7c0-36a5-42c2-8304-a00467b4be9f
+author: 諏訪子
+date: 2024-09-20 00:00:00
 category: unix,server
 ----
 あたしは馬鹿なな事をしてしまいました。\

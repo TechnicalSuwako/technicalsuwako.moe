@@ -1,6 +1,7 @@
 title: 【オワコンテック】spliti 1.1.2登場
-author: 凛
-date: 2023-10-23
+uuid: b7edb08a-4039-44c2-b85e-9f5ec21005dc
+author: 諏訪子
+date: 2023-10-23 00:00:00
 category: software release
 ----
 ## splitiって何？

@@ -1,6 +1,7 @@
 title: 【デジタル自主】ダークネットの解説　第２部：I2Pにアクセスする方法
-author: 凜
-date: 2022-07-10
+uuid: 3030983f-74af-4a6e-ad6f-ae44621ddfd1
+author: 諏訪子
+date: 2022-07-10 00:00:00
 category: security
 ----
 こちらはダークネットの使い方の解説シリーズです。\

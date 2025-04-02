@@ -1,6 +1,7 @@
 title: 【０７６】２０２５年のロードマップ
-author: 凛
-date: 2025-01-01
+uuid: f9479d7b-cdcc-4a2a-89e0-7a01c976b3e8
+author: 諏訪子
+date: 2025-01-01 00:00:00
 thumbnail: MSLxIP.jpg
 thumborient: center
 category: company

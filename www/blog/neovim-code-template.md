@@ -1,6 +1,7 @@
 title: 【Neovim】テンプレートと作り方
-author: 凜
-date: 2024-01-31
+uuid: 13f47701-b841-4a4e-9c74-37fc3a110657
+author: 諏訪子
+date: 2024-01-31 00:00:00
 category: programming
 ----
 [Zigの使い方第１部を投稿した後、この言語を辞めました。](/blog/zig-gengo-1.xhtml)\

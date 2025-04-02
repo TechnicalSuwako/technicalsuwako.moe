@@ -1,6 +1,7 @@
 title: 【Mobian】MyMoneroウォレットのインストール方法
-author: 凜
-date: 2022-03-12
+uuid: f65acfd6-b5d1-40d6-af2a-55b8bd1eddc6
+author: 諏訪子
+date: 2022-03-12 00:00:00
 category: smartphone,unix,crypto
 ----
 LinuxスマホでまだXMRウォレットがありませんので、パソコン向けウォレットをインストールしましょう！

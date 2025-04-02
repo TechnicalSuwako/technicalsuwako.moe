@@ -1,6 +1,7 @@
 title: 【オワコンテック】vixip 1.0.0登場
-author: 凛
-date: 2023-05-07
+uuid: 702f82e8-9c96-49d6-99bc-85fb95cfd922
+author: 諏訪子
+date: 2023-05-07 00:00:00
 category: software release
 ----
 前にURLロリ、保存サイト、及びsplitiを作って、発行しましたが、今からここのブログで新リリースについて報告すると思います。\

@@ -1,12 +1,14 @@
 <?php
 namespace Site\Controller;
 
+use Site\Lib\Activitypub;
 use Site\Lib\Markdown;
 use Site\Lib\Template;
 use Site\Controller\Mods;
 
 class Home extends Mods {
   private array $searchKeywords = [];
+  private string $domain = 'technicalsuwako.moe';
 
   //------------------------------------------
   // ページ
@@ -197,7 +199,148 @@ class Home extends Mods {
       exit;
     } catch (\Exception $e) {
       header('Content-Type: text/plain; charset=utf-8');
-      echo 'Error generating feed: ' . $e->getMessage();
+      echo 'フィードの作成に失敗: ' . $e->getMessage();
+      exit;
+    }
+  }
+
+  /**
+   * @param array $params パラメータ配列
+   * @return void
+   */
+  public function apfinger(array $params): void {
+    try {
+      header('Content-Type: application/jrd+json');
+      $ap = new Activitypub();
+      echo $ap->getWebfinger();
+      exit;
+    } catch (\Exception $e) {
+      header('Content-Type: text/plain; charset=utf-8');
+      echo 'フェディバースの作成に失敗: ' . $e->getMessage();
+      exit;
+    }
+  }
+
+  /**
+   * @param array $params パラメータ配列
+   * @return void
+   */
+  public function apactor(array $params): void {
+    try {
+      header('Content-Type: application/activity+json');
+      $ap = new Activitypub();
+      echo $ap->getActor();
+      exit;
+    } catch (\Exception $e) {
+      header('Content-Type: text/plain; charset=utf-8');
+      echo 'フェディバースの作成に失敗: ' . $e->getMessage();
+      exit;
+    }
+  }
+
+  /**
+   * @param array $params パラメータ配列
+   * @return void
+   */
+  public function apinbox(array $params): void {
+    if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+      header('HTTP/1.1 405 Method Not Allowed');
+      header('Allow: POST');
+      exit;
+    }
+
+    $input = file_get_contents('php://input');
+    $activity = json_decode($input, true);
+    if (!$activity || !isset($activity['type'])) {
+      header('HTTP/1.1 400 Bad Request');
+      header('Content-Type: application/activity+json');
+      echo json_encode(['error' => '不正なアクティビティ']);
+      exit;
+    }
+
+    logger(\LogType::ActivityPub, "受付に入れた：".json_encode($activity));
+
+    try {
+      header('Content-Type: application/activity+json');
+      $ap = new Activitypub();
+      $ap->postInbox($activity);
+      exit;
+    } catch (\Exception $e) {
+      header('Content-Type: text/plain; charset=utf-8');
+      echo 'フェディバースの作成に失敗: ' . $e->getMessage();
+      exit;
+    }
+  }
+
+  /**
+   * @param array $params パラメータ配列
+   * @return void
+   */
+  public function apactivity(array $params): void {
+    $uuid = '';
+    if (isset($params['uuid'])) $uuid = $params['uuid'];
+
+    try {
+      header('Content-Type: application/activity+json');
+      $posts = $this->getPosts();
+      $ap = new Activitypub($posts);
+      echo $ap->getActivity($uuid);
+      exit;
+    } catch (\Exception $e) {
+      header('Content-Type: text/plain; charset=utf-8');
+      echo 'フェディバースの作成に失敗: ' . $e->getMessage();
+      exit;
+    }
+  }
+
+  /**
+   * @param array $params パラメータ配列
+   * @return void
+   */
+  public function apoutbox(array $params): void {
+    try {
+      header('Content-Type: application/activity+json');
+      $posts = $this->getPosts();
+      $ap = new Activitypub($posts);
+      echo $ap->getOutbox();
+      exit;
+    } catch (\Exception $e) {
+      header('Content-Type: text/plain; charset=utf-8');
+      echo 'フェディバースの作成に失敗: ' . $e->getMessage();
+      exit;
+    }
+  }
+
+  /**
+   * @param array $params パラメータ配列
+   * @return void
+   */
+  public function apfollowers(array $params): void {
+    try {
+      header('Content-Type: application/activity+json');
+      $ap = new Activitypub();
+      echo $ap->getFollowers();
+      exit;
+    } catch (\Exception $e) {
+      header('Content-Type: text/plain; charset=utf-8');
+      echo 'フェディバースの作成に失敗: ' . $e->getMessage();
+      exit;
+    }
+  }
+
+  /**
+   * @param array $params パラメータ配列
+   * @return void
+   */
+  public function apfollowing(array $params): void {
+    try {
+      header('Content-Type: application/activity+json');
+      $ap = new Activitypub();
+      echo $ap->getFollowing();
+      exit;
+    } catch (\Exception $e) {
+      header('Content-Type: text/plain; charset=utf-8');
+      echo 'フェディバースの作成に失敗: ' . $e->getMessage();
       exit;
     }
   }
@@ -254,6 +397,7 @@ class Home extends Mods {
         'thumbnail' => $metadata['thumbnail'] ?? '',
         'thumborient' => $metadata['thumborient'] ?? '',
         'category' => $metadata['category'] ?? [],
+        'uuid' => $metadata['uuid'] ?? '',
         'preview' => $preview,
         'slug' => $slug,
       ];

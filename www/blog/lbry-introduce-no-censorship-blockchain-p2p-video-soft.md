@@ -1,6 +1,7 @@
 title: LBRYと紹介します！検閲できないのブロックチェーンやP2P型動画ソフト（第１部）
-author: 凜
-date: 2021-02-23
+uuid: 51b80097-5aa7-47c3-ac44-73df7934be98
+author: 諏訪子
+date: 2021-02-23 00:00:00
 category: video,rant
 ----
 <p class="warning">

@@ -1,6 +1,7 @@
 title: Linuxスマホのメリット＆デメリット
-author: 凜
-date: 2020-12-19
+uuid: e9293f69-b013-48c4-8e0e-4076ca81357a
+author: 諏訪子
+date: 2020-12-19 00:00:00
 category: smartphone,unix,rant
 ----
 最近Linux（リナックス）スマホを使っていますので、本当に嬉しい。\

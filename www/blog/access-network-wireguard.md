@@ -1,6 +1,7 @@
 title: 【セキュリティ】Wireguardを使って安全に自宅のネットワークをアクセスする方法
-author: 凛
-date: 2023-01-17
+uuid: d52e40e5-d52e-4541-8058-e5eb7b34f1a7
+author: 諏訪子
+date: 2023-01-17 00:00:00
 category: server,security
 ----
 また会社員になったから、あんま自宅にいない状況となりました。\

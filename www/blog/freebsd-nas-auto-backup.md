@@ -1,6 +1,7 @@
 title: 【FreeBSD】簡単にNASの自動的にバックアップする方法
-author: 凜
-date: 2024-01-30
+uuid: f1084678-fb91-4e6e-8414-0fbfc70c5448
+author: 諏訪子
+date: 2024-01-30 00:00:00
 category: server,storage
 ----
 [先月は「０７６動画ホスティングの解決策」という投稿を書きました。](/blog/digital-autonomy-076video-hosting.xhtml)\

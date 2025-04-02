@@ -1,6 +1,7 @@
 title: 【プログラミング】生産力を増大する方法
-author: 凛
-date: 2024-01-04
+uuid: 8e1ff1c2-5b3a-4026-a033-b204b4a0866a
+author: 諏訪子
+date: 2024-01-04 00:00:00
 category: programming,unix
 ----
 かつて、ハッカー達は非常に生産的でした。\

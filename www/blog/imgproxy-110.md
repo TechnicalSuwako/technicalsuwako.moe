@@ -1,6 +1,7 @@
 title: 【０７６】imgproxy 1.1.0登場
-author: 凛
-date: 2023-11-09
+uuid: 28ba52d6-22fa-41a0-a25d-0c069e1155e0
+author: 諏訪子
+date: 2023-11-09 00:00:00
 category: software release
 ----
 ## imgproxyって何？

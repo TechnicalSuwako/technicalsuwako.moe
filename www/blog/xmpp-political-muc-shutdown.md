@@ -1,6 +1,7 @@
 title: 【０７６】政治系XMPP MUCの廃止について
-author: 凛
-date: 2025-02-13
+uuid: 0d6e16b7-5722-461e-b8b5-ff18a72877d1
+author: 諏訪子
+date: 2025-02-13 00:00:00
 category: company
 ----
 本日、日本国民自由主・無政府義者会のXMPP MUCを閉鎖する事を決定しました。\

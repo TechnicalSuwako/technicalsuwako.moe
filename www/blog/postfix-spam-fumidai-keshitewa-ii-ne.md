@@ -1,6 +1,7 @@
 title: 【Postfix】スパム踏み台になった場合、mailq削除方法です
-author: 凜
-date: 2020-01-24
+uuid: 6776c57a-e8bb-470a-82d6-c5abc0475e6c
+author: 諏訪子
+date: 2020-01-24 00:00:00
 category: server,hosting
 ----
 毎日皆さんはメールを送りますが、簡単なパスワードを使い方又はパスワードハッキングが多すぎます。\

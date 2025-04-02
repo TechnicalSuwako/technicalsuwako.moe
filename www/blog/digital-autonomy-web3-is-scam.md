@@ -1,6 +1,7 @@
 title: 【デジタル自主】Web3.0（NFT、Qortal、メタバース等）は詐欺
-author: 凜
-date: 2022-02-15
+uuid: fdf3a553-9ce6-4052-af92-d349aa556eeb
+author: 諏訪子
+date: 2022-02-15 00:00:00
 category: rant
 ----
 最近はWeb3.0について話を聞きましたか？\

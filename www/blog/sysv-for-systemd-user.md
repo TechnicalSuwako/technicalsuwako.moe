@@ -1,6 +1,7 @@
 title: 【Linux】systemdユーザー向けSysV使い方
-author: 凛
-date: 2022-11-15
+uuid: 3e57216d-5ddb-48c0-8738-23521c00aec2
+author: 諏訪子
+date: 2022-11-15 00:00:00
 category: unix
 ----
 コマンド | SysV | systemd

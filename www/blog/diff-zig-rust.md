@@ -1,6 +1,7 @@
 title: 【プログラミング】RustとZigの違い
-author: 凛
-date: 2023-05-24 21:00
+uuid: b50d704f-1588-47a3-a091-05cd45d0a1df
+author: 諏訪子
+date: 2023-05-24 21:00 00:00:00
 category: programming
 ----
 ## Zigとは？

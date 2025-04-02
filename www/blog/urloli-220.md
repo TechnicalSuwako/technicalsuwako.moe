@@ -1,5 +1,6 @@
 title: 【０７６】URLロリ 2.2.0登場
-author: 凛
+uuid: 88c26977-f542-4a2d-8e27-b9dfe2ea33f9
+author: 諏訪子
 date: 2023-07-17 02:40:00
 category: software release
 ----

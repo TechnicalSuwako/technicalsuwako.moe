@@ -1,6 +1,7 @@
 title: 【デジタル奴隷制度】低水準言語書ける方が消えたら、テクニカルな世界がおしまい
-author: 凛
-date: 2023-03-27
+uuid: b26e20d6-9394-4f24-ae61-5f7b47e8b54a
+author: 諏訪子
+date: 2023-03-27 00:00:00
 category: programming,rant
 ----
 ## 序論

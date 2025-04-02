@@ -1,6 +1,7 @@
 title: 【意見】近代のウェブ開発：「インストール方法はもう簡単になった」
-author: 凜
-date: 2021-05-08
+uuid: ff6e75b3-4e0f-4384-853b-91be5be80fc1
+author: 諏訪子
+date: 2021-05-08 00:00:00
 category: webdev,rant
 ----
 [昨日、不意にPawooからBANされましたから、自分のSNSインスタンスをインストールしてみました](https://social.076.moe)。\
