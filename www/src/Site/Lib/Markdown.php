@@ -271,7 +271,7 @@ class Markdown {
     $text = preg_replace('/\~(.+?)\~/', '<s>$1</s>', $text);
 
     // 画像
-    $text = preg_replace('/\!\[(.*?)\]\((.+?)\)/', '<img src="$2" alt="$1" />', $text);
+    $text = preg_replace('/\!\[(.*?)\]\((.+?)\)/', '<img style="width: 100%;" src="$2" alt="$1" />', $text);
 
     // 音楽
     $text = preg_replace('/\$\[([^\]]+)\]\(([^\)]+)\)/',
